@@ -1,0 +1,7 @@
+<resources>
+    <!-- Seule ressource conservée côté Android : le manifeste (@string/app_name) ne peut pas
+         référencer une ressource du catalogue partagé Compose Multiplatform (Res.string.*),
+         qui n'existe qu'au niveau du code Kotlin, pas au niveau du système de ressources
+         natif Android exploité par le PackageManager pour le label de l'application. -->
+    <string name="app_name">EcoBudget</string>
+</resources>
